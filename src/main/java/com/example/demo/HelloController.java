@@ -20,4 +20,9 @@ public class HelloController {
     public String test() {
         return "test connect with open_ssl!!!";
     }
+
+    @RequestMapping("/testAgain")
+    public String testAgain() {
+        return "testAgain connect with delete SSH !!!";
+    }
 }
