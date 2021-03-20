@@ -15,4 +15,9 @@ public class HelloController {
     public String hi() {
         return "Just say hi hi hi！！！";
     }
+
+    @RequestMapping("/test")
+    public String test() {
+        return "test connect with open_ssl!!!";
+    }
 }
