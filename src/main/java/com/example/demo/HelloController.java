@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "my springboot test push to remote repository!!";
+    }
+
+    @RequestMapping("/hi")
+    public String hi() {
+        return "Just say hi hi hi！！！";
     }
 }
